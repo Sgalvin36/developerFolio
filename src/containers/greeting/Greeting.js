@@ -36,6 +36,24 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
+                {greeting.subTitle2}
+              </p>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
+                {greeting.subTitle3}
+              </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
@@ -53,14 +71,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                alt="self portrait"
+                src={require("../../assets/images/Self.png")}
               ></img>
-            )}
           </div>
         </div>
       </div>

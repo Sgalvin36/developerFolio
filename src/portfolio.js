@@ -23,8 +23,9 @@ const greeting = {
   username: "Shane Galvinl",
   title: "Hi all, I'm Shane",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having experience with Ruby on Rails / React / PostgreSQL / JavaScript and ready and willing to learn other tech stacks."
-  ),
+    "A passionate Full Stack Software Developer 🚀 having experience with Ruby on Rails / React / PostgreSQL / JavaScript and ready and eagerly willing to learn other tech stacks. I come from a wide background of careers ranging from military service to food service. I jumped into this career path because I enjoy the challenge of breaking down intangible ideas into tangible products."),
+  subTitle2: "I have an eye for seeing problems from multiple angles and wisdom to know that there are almost always multiple ways of solving any problem, particularly from other team members. I bring a calm among the chaos and a knack for conveying complex ideas in a manner that makes sense to the receiver. ",
+  subTitle3: "Currently living in Frederick, CO with my wife and two boys of 2 and a half years old, and 8 months old. We love the area and hope to stick around.",
   resumeLink:
     "https://docs.google.com/document/d/1SzLEPZNdLFEGVwgfFhq2vtLTcPiwaLTua_eI1TFXedk/edit?tab=t.0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -186,18 +187,22 @@ const workExperiences = {
       company: "Chick-fil-A",
       companylogo: require("./assets/images/cfa-logo.png"),
       date: "Sept 2017 – May 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Managed 30+ people to produce product for $10 million annual sales and annual 10%+ growth.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Implemented process to increase team member retention maintaining double digit growth while tripling profitability", 
+        "Balanced operations, labor, training and personal learning while consistently passing health inspections with over 95%"
+        ]
     },
     {
       role: "Communication and Navigation Avionics Technician",
       company: "United States Marine Corps",
       companylogo: require("./assets/images/Marines-Logo.png"),
       date: "April 2008 – March 2013",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Marine Corps trained avoinics technician capable of troubleshooting based off schematics down to the component level",
+      descBullets: [
+        "Developed personal process for quickly consuming and navigating dozens of technical manuals to achieve Quality Inspector qualifications",
+        "Inspected all incoming and outgoing work in compliance with technical specifications to keep aircraft operations running"
+      ]
     }
     // {
     //   role: "Software Engineer Intern",
@@ -220,7 +225,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Hands-on Projects",
   subtitle: "PROJECTS THAT I HAVE HAD A DIRECT IMPACT ON",
   projects: [
     {
@@ -391,7 +396,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
