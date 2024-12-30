@@ -1,52 +1,54 @@
 /* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
-// Splash Screen
 
+// Splash Screen
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
-// Summary And Greeting Section
 
+// Summary And Greeting Section
 const illustration = {
   animated: true // Set to false to use static SVG
 };
+
 
 const greeting = {
   username: "Shane Galvinl",
   title: "Hi all, I'm Shane",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having experience with Ruby on Rails / React / PostgreSQL / JavaScript and ready and willing to learn other tech stacks."
-  ),
+    "A passionate Full Stack Software Developer 🚀 having experience with Ruby on Rails / React / PostgreSQL / JavaScript and ready and eagerly willing to learn other tech stacks. I come from a wide background of careers ranging from military service to food service. I jumped into this career path because I enjoy the challenge of breaking down intangible ideas into tangible products."),
+  subTitle2: 
+    "I have an eye for seeing problems from multiple angles and wisdom to know that there are almost always multiple ways of solving any problem, particularly from other team members. I bring a calm among the chaos and a knack for conveying complex ideas in a manner that makes sense to the receiver. ",
+  subTitle3: 
+    "Currently living in Frederick, CO with my wife and two boys of 2 and a half years old, and 8 months old. We love the area and hope to stick around.",
   resumeLink:
     "https://docs.google.com/document/d/1SzLEPZNdLFEGVwgfFhq2vtLTcPiwaLTua_eI1TFXedk/edit?tab=t.0", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+ displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/Sgalvin36",
   linkedin: "https://www.linkedin.com/in/shane-galvin36/",
   gmail: "Sgalvin36@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+ // gitlab: "https://gitlab.com/saadpasta",
+ // facebook: "https://www.facebook.com/saad.pasta7",
+ // medium: "https://medium.com/@saadpasta",
+ // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+ // Instagram, Twitter and Kaggle are also supported in the links!
+ // To customize icons and social links, tweak src/components/SocialMedia
+ display: true // Set true to display this section, defaults to false
 };
 
-// Skills Section
 
+// Skills Section
 const skillsSection = {
   title: "What I do",
   subTitle: "OPTIMISTIC FULL STACK DEVELOPER WHO ENJOYS EXPLORING NEW TECH STACKS",
@@ -54,15 +56,11 @@ const skillsSection = {
     emoji(
       "⚡ Develop intuitive Back end APIs for your web and mobile applications"
     ),
-    emoji("⚡ Test Driven Development allowing projects to progess with confidence")
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
+    emoji("⚡ Test Driven Development allowing projects to progress with confidence")
+   // emoji(
+   //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+   // )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "html-5",
@@ -100,28 +98,28 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+   // {
+   //   skillName: "aws",
+   //   fontAwesomeClassname: "fab fa-aws"
+   // },
+   // {
+   //   skillName: "firebase",
+   //   fontAwesomeClassname: "fas fa-fire"
+   // },
+   // {
+   //   skillName: "python",
+   //   fontAwesomeClassname: "fab fa-python"
+   // },
+   // {
+   //   skillName: "docker",
+   //   fontAwesomeClassname: "fab fa-docker"
+   // }
   ],
-  display: true // Set false to hide this section, defaults to true
+ display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
 
+// Education Section
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -142,7 +140,7 @@ const educationInfo = {
       subHeader: "Masters in Biblical & Theological Studies",
       duration: "January 2018 - May 2020",
       desc: "Attended Seminary while working over 40 hours a week and finished with 3.75 GPA"
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+     // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "Park University",
@@ -150,13 +148,12 @@ const educationInfo = {
       subHeader: "Bachelor of Arts in Psychology",
       duration: "January 2009 - Dec 2013",
       desc: "Did entire program while serving in the Marine Corps"
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+     // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -177,7 +174,6 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -186,26 +182,23 @@ const workExperiences = {
       company: "Chick-fil-A",
       companylogo: require("./assets/images/cfa-logo.png"),
       date: "Sept 2017 – May 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Managed 30+ people to produce product for $10 million annual sales and annual 10%+ growth.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Implemented process to increase team member retention maintaining double digit growth while tripling profitability",
+        "Balanced operations, labor, training and personal learning while consistently passing health inspections with over 95%"
+        ]
     },
     {
       role: "Communication and Navigation Avionics Technician",
       company: "United States Marine Corps",
       companylogo: require("./assets/images/Marines-Logo.png"),
       date: "April 2008 – March 2013",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Marine Corps trained avoinics technician capable of troubleshooting based off schematics down to the component level",
+      descBullets: [
+        "Developed personal process for quickly consuming and navigating dozens of technical manuals to achieve Quality Inspector qualifications",
+        "Inspected all incoming and outgoing work in compliance with technical specifications to keep aircraft operations running"
+      ]
     }
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
   ]
 };
 
@@ -213,14 +206,14 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+ showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+ display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
+// Some big projects you have worked on
 const bigProjects = {
-  title: "Big Projects",
+  title: "Hands-on Projects",
   subtitle: "PROJECTS THAT I HAVE HAD A DIRECT IMPACT ON",
   projects: [
     {
@@ -232,23 +225,24 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://fresh-start-recipes-fe-git-main-jphill19s-projects.vercel.app/"
         }
-        //  you can add extra buttons here.
+       //  you can add extra buttons here.
       ]
     }
-  //   {
-  //     image: require("./assets/images/nextuLogo.webp"),
-  //     projectName: "Nextu",
-  //     projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  //     footerLink: [
-  //       {
-  //         name: "Visit Website",
-  //         url: "http://nextu.se/"
-  //       }
-  //     ]
-  //   }
+ //   {
+ //     image: require("./assets/images/nextuLogo.webp"),
+ //     projectName: "Nextu",
+ //     projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+ //     footerLink: [
+ //       {
+ //         name: "Visit Website",
+ //         url: "http://nextu.se/"
+ //       }
+ //     ]
+ //   }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -257,6 +251,7 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+
 
   achievementsCards: [
     {
@@ -294,6 +289,7 @@ const achievementSection = {
       ]
     },
 
+
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -309,10 +305,10 @@ const achievementSection = {
     }
   ],
   display: false // Set false to hide this section, defaults to true
-};
+  };
+
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:
@@ -335,13 +331,16 @@ const blogSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+
 // Talks Sections
+
 
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
+
 
   talks: [
     {
@@ -354,11 +353,14 @@ const talkSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+
 // Podcast Section
+
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -367,14 +369,17 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
+
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
+
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -384,14 +389,18 @@ const contactInfo = {
   email_address: "Sgalvin36@gmail.com"
 };
 
+
 // Twitter Section
 
+
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+ userName: "twitter", //Replace "twitter" with your twitter username without @
+ display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 
 export {
   illustration,
