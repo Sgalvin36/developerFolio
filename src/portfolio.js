@@ -27,7 +27,7 @@ const greeting = {
   subTitle2: 
     "I have an eye for seeing problems from multiple angles and wisdom to know that there are almost always multiple ways of solving any problem, particularly from other team members. I bring a calm among the chaos and a knack for conveying complex ideas in a manner that makes sense to the receiver. ",
   subTitle3: 
-    "Currently living in Frederick, CO with my wife and two boys of 2 and a half years old, and 8 months old. We love the area and hope to stick around.",
+    "Currently living in Frederick, CO with my wife and two boys of 2 and a half years old, and 8 months old. We love the area and hope to stick around. Though with the right opportunity anything is possible.",
   resumeLink:
     "https://docs.google.com/document/d/1SzLEPZNdLFEGVwgfFhq2vtLTcPiwaLTua_eI1TFXedk/edit?tab=t.0", // Set to empty to hide the button
  displayGreeting: true // Set false to hide this section, defaults to true
@@ -220,25 +220,34 @@ const bigProjects = {
       image: require("./assets/images/fresh-start-recipes.png"),
       projectName: "Fresh Recipes",
       projectDesc: "A mobile centered recipe book aimed at providing cheap recipes with up-to-date local prices on ingredients",
+      projectStack: "Tech Used: Ruby on Rails, React, CSS, Heroku, Vercel",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://fresh-start-recipes-fe-git-main-jphill19s-projects.vercel.app/"
+        },
+        {
+          name: "Front-end repo",
+          url: "https://github.com/Sgalvin36/Fresh-Start-Recipes-Fe.git"
+        },
+        {
+          name: "Back-end repo",
+          url: "https://github.com/Sgalvin36/fresh_recipes_api.git"
         }
-       //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/battleship.png"),
+      projectName: "Battleship",
+      projectDesc: "Building the basic game of battleship utilizing OOP design",
+      projectStack: "Tech Used: Ruby",
+      footerLink: [
+        {
+          name: "Back-end repo",
+          url: "https://github.com/Sgalvin36/Battleship.git"
+        }
       ]
     }
- //   {
- //     image: require("./assets/images/nextuLogo.webp"),
- //     projectName: "Nextu",
- //     projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
- //     footerLink: [
- //       {
- //         name: "Visit Website",
- //         url: "http://nextu.se/"
- //       }
- //     ]
- //   }
   ],
   display: true // Set false to hide this section, defaults to true
 };
