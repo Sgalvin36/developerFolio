@@ -218,8 +218,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/fresh-start-recipes.png"),
-      projectName: "Fresh Recipes",
-      projectDesc: "A mobile centered recipe book aimed at providing cheap recipes with up-to-date local prices on ingredients",
+      projectName: "Fresh Start Recipes",
+      projectDesc: "Fresh Start Recipes provides users a mobile focused recipe book written with a Rails backend and a React frontend (recently rewritten in Next.js) by our team of four developers initially over 11 days. Our main goal was to deliver an MVP for the concept that had several recipes built and local grocery store prices available on demand. We were expanding our understanding of building microservices while utilizing 3rd party APIs to gather the prices. My main focus was developing the back-end API for the application to store the recipes and the front-end recipe submission form to allow easy additions to the database.",
       projectStack: "Tech Used: Ruby on Rails, React, CSS, Heroku, Vercel",
       footerLink: [
         {
@@ -239,7 +239,7 @@ const bigProjects = {
     {
       image: require("./assets/images/battleship.png"),
       projectName: "Battleship",
-      projectDesc: "Building the basic game of battleship utilizing OOP design",
+      projectDesc: "Battleship is a CLI application that plays the classic board game by the same name. Written over a 6 day sprint with one other developer, the application has dynamic board size and fleet size to offer up different levels of difficulty. We were learning about OOP and initial computer logic. We stretched ourselves to write a different computer logic to be used with the game allowing the user a choice between random over a systematic approach. I am currently planning on reworking the project to work on building multiple computer players for the user to choose from.",
       projectStack: "Tech Used: Ruby",
       footerLink: [
         {
